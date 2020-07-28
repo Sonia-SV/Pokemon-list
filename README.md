@@ -1,8 +1,8 @@
 ## proyecto base con tres componentes:
 
 - App.js (abuela)
-- ComponenteMadre.js (madre)
-- ComponenteHija.js (hija)
+- PokeList.js (madre)
+- Pokemon.js (hija)
 
 ## para empezar a trabajar con ello hay que ejecutar
 

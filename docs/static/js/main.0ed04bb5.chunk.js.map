@@ -1,1 +1,30 @@
-{"version":3,"sources":["components/ComponenteHija.js","components/ComponenteMadre.js","components/App.js","index.js"],"names":["ComponenteHija","React","Component","ComponenteMadre","App","ReactDOM","render","StrictMode","document","getElementById"],"mappings":"yRASeA,G,6KAJX,OAAO,kC,GAFkBC,IAAMC,YCWpBC,G,6KARX,OACE,6BACE,kBAAC,EAAD,W,GAJsBF,IAAMC,YCUrBE,G,6KARX,OACE,6BACE,kBAAC,EAAD,W,GAJUH,IAAMC,YCCxBG,IAASC,OACP,kBAAC,IAAMC,WAAP,KACE,kBAAC,EAAD,OAEFC,SAASC,eAAe,W","file":"static/js/main.0ed04bb5.chunk.js","sourcesContent":["import React from 'react';\nimport '../stylesheets/ComponenteHija.scss';\n\nclass ComponenteHija extends React.Component {\n  render() {\n    return <div></div>;\n  }\n}\n\nexport default ComponenteHija;\n","import React from 'react';\nimport ComponenteHija from './ComponenteHija';\nimport '../stylesheets/ComponenteMadre.scss';\n\nclass ComponenteMadre extends React.Component {\n  render() {\n    return (\n      <div>\n        <ComponenteHija />\n      </div>\n    );\n  }\n}\n\nexport default ComponenteMadre;\n","import React from 'react';\nimport ComponenteMadre from './ComponenteMadre';\nimport '../stylesheets/App.scss';\n\nclass App extends React.Component {\n  render() {\n    return (\n      <div>\n        <ComponenteMadre />\n      </div>\n    );\n  }\n}\n\nexport default App;\n","import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './stylesheets/index.css';\nimport App from './components/App';\n\nReactDOM.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>,\n  document.getElementById('root')\n);\n"],"sourceRoot":""}
+{
+  "version": 3,
+  "sources": [
+    "components/Pokemon.js",
+    "components/PokeList.js",
+    "components/App.js",
+    "index.js"
+  ],
+  "names": [
+    "Pokemon",
+    "React",
+    "Component",
+    "PokeList",
+    "App",
+    "ReactDOM",
+    "render",
+    "StrictMode",
+    "document",
+    "getElementById"
+  ],
+  "mappings": "yRASeA,G,6KAJX,OAAO,kC,GAFkBC,IAAMC,YCWpBC,G,6KARX,OACE,6BACE,kBAAC,EAAD,W,GAJsBF,IAAMC,YCUrBE,G,6KARX,OACE,6BACE,kBAAC,EAAD,W,GAJUH,IAAMC,YCCxBG,IAASC,OACP,kBAAC,IAAMC,WAAP,KACE,kBAAC,EAAD,OAEFC,SAASC,eAAe,W",
+  "file": "static/js/main.0ed04bb5.chunk.js",
+  "sourcesContent": [
+    "import React from 'react';\nimport '../stylesheets/Pokemon.scss';\n\nclass Pokemon extends React.Component {\n  render() {\n    return <div></div>;\n  }\n}\n\nexport default Pokemon;\n",
+    "import React from 'react';\nimport Pokemon from './Pokemon';\nimport '../stylesheets/PokeList.scss';\n\nclass PokeList extends React.Component {\n  render() {\n    return (\n      <div>\n        <Pokemon />\n      </div>\n    );\n  }\n}\n\nexport default PokeList;\n",
+    "import React from 'react';\nimport PokeList from './PokeList';\nimport '../stylesheets/App.scss';\n\nclass App extends React.Component {\n  render() {\n    return (\n      <div>\n        <PokeList />\n      </div>\n    );\n  }\n}\n\nexport default App;\n",
+    "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './stylesheets/index.css';\nimport App from './components/App';\n\nReactDOM.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>,\n  document.getElementById('root')\n);\n"
+  ],
+  "sourceRoot": ""
+}
