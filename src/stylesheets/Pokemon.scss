@@ -1,1 +1,36 @@
-// HOJA DE ESTILO PARA EL COMPONENTE HIJA
+.poke__list__card {
+  margin: 30px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid rgb(63, 63, 63);
+  background: linear-gradient(0deg, red 45%, rgb(63, 63, 63) 45%, rgb(63, 63, 63) 55%, white 55%);
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    &__img {
+      width: 150px;
+    }
+    &__name {
+      font-size: 25px;
+      color: red;
+      text-transform: uppercase;
+    }
+    &__list {
+      display: flex;
+      flex-direction: row;
+      &__types {
+        margin: 5px;
+        font-size: 20px;
+        border: 1px rgb(63, 63, 63) solid;
+        border-radius: 5px;
+        background-color: white;
+      }
+    }
+  }
+}

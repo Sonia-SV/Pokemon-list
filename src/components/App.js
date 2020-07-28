@@ -2,6 +2,7 @@ import React from 'react';
 import pokemonFromApi from '../data/list.json';
 import Header from './Header';
 import PokeList from './PokeList';
+import '../stylesheets/reset.scss';
 import '../stylesheets/App.scss';
 
 class App extends React.Component {
@@ -12,7 +13,6 @@ class App extends React.Component {
     };
   }
   render() {
-    console.log(this.state);
     return (
       <div>
         <Header />
