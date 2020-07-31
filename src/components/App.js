@@ -3,7 +3,6 @@ import pokemonFromApi from '../data/list.json';
 import Header from './Header';
 import PokeList from './PokeList';
 import '../stylesheets/reset.scss';
-import '../stylesheets/App.scss';
 
 class App extends React.Component {
   constructor(props) {
